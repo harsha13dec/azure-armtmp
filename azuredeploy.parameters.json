@@ -6,7 +6,7 @@
       "value": "azureuser"
     },
     "adminPasswordOrKey": {
-      "value": "azureadmin@123"
+      "value": "PK-VM_key"
     },
     "dnsLabelPrefix": {
       "value": "kafka-label"
