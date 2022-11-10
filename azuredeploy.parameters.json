@@ -1,23 +1,15 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-		"adminUsername":  {
-			"value": "azureadmin"
-		},
-		"adminpassword":  {
-			"value": "azureadm@123"
-		},
-        "imagePublisher": {
-            "value": "Canonical"
-        },
-
-        "imageOffer": {
-            "value": "UbuntuServer"
-        },
-
-        "imageSku": {
-            "value": "16.04-LTS"
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPasswordOrKey": {
+      "value": "azureadmin@123"
+    },
+    "dnsLabelPrefix": {
+      "value": "kafka-label"
     }
+  }
 }
